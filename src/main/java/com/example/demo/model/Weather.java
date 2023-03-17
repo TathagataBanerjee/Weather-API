@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection="weather")
 public class Weather {
-    @Id
+    
 	private Integer id;
 	private Date date;
 	private Float lat;
